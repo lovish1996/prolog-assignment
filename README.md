@@ -55,5 +55,68 @@ Answer by writing `Yes` or `No`.
 
 #### I/O Samples
 
+**SAMPLE 1:**
 
+- **Input**: `prolog_2.`
+- **Output**: Enter the student's name:
+- **Input**: `'Harsh Vardhan'`.
+- **Output**: Are student's dues cleared? Answer `'Yes'` or `'No'`
+- **Input**: `'Yes'.`
+- **Output**: Is student's gradesheet withheld? Answer `'Yes'` or `'No'`
+- **Input**: `'No'.`
+- **Output**: Is student's report incomplete? Answer `'Yes'` or `'No'`
+- **Input**: `'No'.`
+- **Output**: Is student debarred from the semester? Answer `'Yes'` or `'No'`
+- **Input**: `'No'.`
+- **Output**: You are eligible to register \
+		Enter `'Single'` for single degree and `'Dual'` for dual degree student.
+- **Input**:	`'Single'.`
+- **Output**: Do you want to pursue higher degree course? Answer `'Yes'` or `'No'`
+- **Input**:	`'No'.`
+- **Output**: Enter the discipline code for student
+- **Input**:	`'A7'.`
+- **Output**: Enter the course codes of courses done till now in the form of list.
+- **Input**:  `['BIO F110','BIO F111','CHEM F110','CHEM F111','MATH F111','PHY F110','PHY F111','BITS F110','MATH F112','ME F110','CS F111'
+		,'EEE F111','BITS F112','MATH F113','BITS F111','CHEM F110','MATH F211','CS F214','CS F222','CS F213','CS F215','ECON F211'
+		,'CS F211','CS F241','CS F212', []].`
+- **Output**:	Enter the course codes of courses you want to register in the form of list.
+- **Input**: `['CS F351', 'CS F372', 'CS F301'].`
+- **Output**: Enter code corresponding to your Query:-
+- **Input**:	`'B'.`
+- **Output**: Student is eligible for doing PS1. \
+true 
+
+
+**SAMPLE 2:**
+
+- **Input**: `prolog_2.`
+- **Output**: Enter the student's name:
+- **Input**: `'Harsh Vardhan'.`
+- **Output**: Are student's dues cleared? Answer `'Yes'` or `'No'`
+- **Input**: `'Yes'.`
+- **Output**: Is student's gradesheet withheld? Answer `'Yes'` or `'No'`
+- **Input**: `'No'.`
+- **Output**: Is student's report incomplete? Answer `'Yes'` or `'No'`
+- **Input**: `'No'.`
+- **Output**: Is student debarred from the semester? Answer `'Yes'` or `'No'`
+- **Input**: `'No'.`
+- **Output**: You are eligible to register
+		Enter 'Single' for single degree and 'Dual' for dual degree student.
+- **Input**:	`'Dual'.`
+- **Output**: Do you want to pursue higher degree course? Answer `'Yes'` or `'No'`
+- **Input**:	`'Yes'.`
+- **Output**:	You want to pursue the higher degree course in first discipline or second? Enter 'First' or 'Second' respectively.
+- **Input**:  `'First'.`
+- **Output**: Enter the discipline code for student
+- **Input**:	`'B3A7'.`
+- **Output**: Enter the course codes of courses done till now in the form of list.
+- **Input**:  `['BIO F110','BIO F111','CHEM F110','CHEM F111','MATH F111','PHY F110','PHY F111','BITS F110','MATH F112','ME F110','CS F111',
+		'EEE F111','BITS F112','MATH F113','BITS F111','CHEM F110','MATH F211','ECON F211','ECON F212','ECON F213','ECON F214',
+		'MGTS F211','ECON F241','ECON F242','ECON F243','ECON F244',[]].`
+- **Output**:	Enter the course codes of courses you want to register in the form of list.
+- **Input**: `['CS F351', 'CS F372', 'CS F301'].`
+- **Output**: Enter code corresponding to your Query:-
+- **Input**:	`'C'.`
+- **Output**: Student is eligible for doing a higher degree course in his/her first discipline. \
+		true 
 ----------
